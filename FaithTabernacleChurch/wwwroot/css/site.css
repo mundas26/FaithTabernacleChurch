@@ -1,3 +1,107 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --accent-color: #fbc531;
+    --main-transition: all 0.3s ease-in-out;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: var(--main-transition);
+    text-transform: uppercase;
+}
+
+    .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+        transition: var(--main-transition);
+    }
+
+    .navbar ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar a {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 10px;
+        font-weight: 300;
+        transition: var(--main-transition);
+    }
+
+    .navbar * {
+        font-size: 16px;
+        letter-spacing: 0.1rem;
+    }
+
+    .navbar a.current,
+    .navbar a:hover {
+        color: var(--accent-color);
+    }
+
+    .navbar a.current {
+        font-weight: 600;
+    }
+
+        .navbar a.current::before {
+            content: "";
+            width: 20%;
+            height: 2px;
+            background-color: var(--accent-color);
+            position: absolute;
+            bottom: -3px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: var(--main-transition);
+        }
+
+    .navbar.active {
+        background-color: #fbc531;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+        .navbar.active a {
+            color: #fff;
+        }
+
+            .navbar.active a.current::before {
+                opacity: 0;
+            }
+
+        .navbar.active .container {
+            padding: 5px 0;
+        }
+
+/*End here*/
 html {
   font-size: 14px;
 }
