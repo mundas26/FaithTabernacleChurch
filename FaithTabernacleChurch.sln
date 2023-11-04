@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaithTabernacleChurch", "FaithTabernacleChurch\FaithTabernacleChurch.csproj", "{3A204884-2084-48F0-BD7D-4485EAFCD84D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaithTabernacleChurch", "FaithTabernacleChurch\FaithTabernacleChurch.csproj", "{3A204884-2084-48F0-BD7D-4485EAFCD84D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftc.DataAccess", "Ftc.DataAccess\Ftc.DataAccess.csproj", "{1E93BF18-C0A7-45DE-9D00-E21F3589504C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftc.DataAccess", "Ftc.DataAccess\Ftc.DataAccess.csproj", "{1E93BF18-C0A7-45DE-9D00-E21F3589504C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftc.Models", "Ftc.Model\Ftc.Models.csproj", "{2AE652F1-5EE7-4A57-91A8-BCCD80937C4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftc.Models", "Ftc.Model\Ftc.Models.csproj", "{2AE652F1-5EE7-4A57-91A8-BCCD80937C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftc.Utility", "Ftc.Utility\Ftc.Utility.csproj", "{383D0096-0D32-4E53-8E90-EFD90110D0C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftc.Utility", "Ftc.Utility\Ftc.Utility.csproj", "{383D0096-0D32-4E53-8E90-EFD90110D0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{914286F5-0241-477B-9CCF-D110DF6A55FD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

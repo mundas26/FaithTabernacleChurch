@@ -67,10 +67,5 @@ namespace Ftc.DataAccess.Repository
         {
             dbSet.RemoveRange(entity);
         }
-
-        public void Update(T entity)
-        {
-            dbSet.Update(entity);
-        }
     }
 }
